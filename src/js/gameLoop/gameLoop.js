@@ -2,18 +2,8 @@
 
 function gameLoop()
 {
-    if (world.jane.x < world.joan.x)
-    {
-        ge('janeInfo').textContent = 'Jane is Behind';
+    aheadOrBehind(world.jane, world.joan);
 
-        ge('joanInfo').textContent = 'Joan is Ahead';
-    }
-    else
-    {
-        ge('janeInfo').textContent = 'Jane is Ahead';
-
-        ge('joanInfo').textContent = 'Joan is Behind';
-    }
     requestAnimationFrame(gameLoop);
 }
 
