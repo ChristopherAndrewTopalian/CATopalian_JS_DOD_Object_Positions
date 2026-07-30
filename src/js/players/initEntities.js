@@ -16,7 +16,6 @@ function initEntities()
         entity.style.padding = '5px 5px';
         entity.style.textShadow = '1px 1px 1px black';
         ba(entity);
-        //makeElementDraggable(entity);
         makeElementDraggable(entity, world[key]);
     }
 }
