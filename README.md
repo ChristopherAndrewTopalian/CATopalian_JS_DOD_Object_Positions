@@ -1,5 +1,5 @@
 # CATopalian JS DOD Object Positions
-This JavaScript Data Oriented Design with a focus on getting the position of each of the objects in the scene.
+This is JavaScript Data Oriented Design with a focus on getting the position of each of the objects in the scene.
 
 ![screenshot001](src/media/textures/screenshots/001.webp)  
 
