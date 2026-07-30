@@ -11,7 +11,7 @@ Video: https://www.youtube.com/watch?v=GS7c9cFox98
 
 ---
 
-### How to Download this App
+### How to **Download** this App
 1. **Click** the green **Code Button** on this github page
 2. Choose **Download ZIP**
 3. **Save** the **Zip File**
