@@ -2,8 +2,6 @@
 
 function gameLoop()
 {
-    getPlayerPositions();
-
     if (world.jane.x < world.joan.x)
     {
         ge('janeInfo').textContent = 'Jane is Behind';
