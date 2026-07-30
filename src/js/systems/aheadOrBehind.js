@@ -4,15 +4,14 @@ function aheadOrBehind(obj1, obj2)
 {
     if (obj1.x < obj2.x)
     {
-        ge('janeInfo').textContent = 'Jane is Behind';
-
-        ge('joanInfo').textContent = 'Joan is Ahead';
+        // Capitalize the first letter if needed, or just use the raw data name
+        ge(obj1.name + 'Info').textContent = obj1.name + ' is Behind';
+        ge(obj2.name + 'Info').textContent = obj2.name + ' is Ahead';
     }
     else
     {
-        ge('janeInfo').textContent = 'Jane is Ahead';
-
-        ge('joanInfo').textContent = 'Joan is Behind';
+        ge(obj1.name + 'Info').textContent = obj1.name + ' is Ahead';
+        ge(obj2.name + 'Info').textContent = obj2.name + ' is Behind';
     }
 }
 
