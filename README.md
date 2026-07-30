@@ -5,6 +5,10 @@ This is JavaScript Data Oriented Design with a focus on getting the position of 
 
 ![screenshot002](src/media/textures/screenshots/002.webp)  
 
+Use App: https://christopherandrewtopalian.github.io/CATopalian_JS_DOD_Object_Positions/CATopalian_JS_DOD_Object_Positions.html
+
+Video: https://www.youtube.com/watch?v=GS7c9cFox98
+
 ---
 
 ### How to Download this App
