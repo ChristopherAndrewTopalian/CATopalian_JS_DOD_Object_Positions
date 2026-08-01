@@ -25,6 +25,10 @@ world = {
     jane
 };
 
+let engineState = {
+    isDragging: false
+};
+
 //----//
 
 // Dedicated to God the Father

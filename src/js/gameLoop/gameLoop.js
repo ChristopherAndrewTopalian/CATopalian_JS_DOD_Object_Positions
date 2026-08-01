@@ -4,6 +4,9 @@ function gameLoop()
 {
     aheadOrBehind(world.jane, world.joan);
 
+    // keep entities in world
+    boundarySystem();
+
     requestAnimationFrame(gameLoop);
 }
 

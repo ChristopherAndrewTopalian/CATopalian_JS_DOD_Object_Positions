@@ -10,6 +10,8 @@ function createMouseDownHandler(element, worldEntry, dragState)
             return;
         }
 
+        engineState.isDragging = true;
+
         e.preventDefault();
 
         dragState.lastMouseX = e.clientX;
@@ -30,7 +32,7 @@ function createMouseDownHandler(element, worldEntry, dragState)
             dragState.lastMouseX = e.clientX;
             dragState.lastMouseY = e.clientY;
 
-            // world updates first — it's the source of truth
+            // world updates first, it's the source of truth
             worldEntry.x += deltaX;
             worldEntry.y += deltaY;
 
@@ -43,6 +45,8 @@ function createMouseDownHandler(element, worldEntry, dragState)
         {
             document.removeEventListener('mousemove', mouseMoveHandler);
             document.removeEventListener('mouseup', mouseUpHandler);
+
+            engineState.isDragging = false;
         }
 
         document.addEventListener('mousemove', mouseMoveHandler);
