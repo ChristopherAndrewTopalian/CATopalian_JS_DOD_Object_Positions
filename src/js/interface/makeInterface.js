@@ -11,6 +11,16 @@ function makeInterface()
     let janeInfo = ce('div');
     janeInfo.id = 'janeInfo';
     ba(janeInfo);
+
+    ba(ce('hr'));
+
+    let joanInfo2 = ce('div');
+    joanInfo2.id = 'joanInfo2';
+    ba(joanInfo2);
+
+    let janeInfo2 = ce('div');
+    janeInfo2.id = 'janeInfo2';
+    ba(janeInfo2);
 }
 
 //----//
